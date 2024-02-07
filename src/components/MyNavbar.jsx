@@ -1,11 +1,20 @@
 import React from "react";
 
-const MyNavbar = () => {
+const MyNavbar = ({ selectedMonth, setSelectedMonth }) => {
+  const months = ["January", "February"];
+
+  const handleMonthChange = (month) => {
+    setSelectedMonth(month);
+  };
+
   return (
     <nav className="navbar navbar-expand-lg py-2 sticky-top">
       <div className="container">
         <h1>
-          <a className="navbar-brand fw-bold fs-3" href="#Home">
+          <a
+            className="navbar-brand fw-bold fs-3 text-decoration-none"
+            href="#Home"
+          >
             Aaron.
           </a>
         </h1>
@@ -17,9 +26,20 @@ const MyNavbar = () => {
             data-bs-toggle="dropdown"
             aria-expanded="false"
           >
-            January
+            {selectedMonth}
           </button>
-          <ul className="dropdown-menu"></ul>
+          <ul className="dropdown-menu">
+            {months.map((month) => (
+              <li>
+                <button
+                  className="dropdown-item"
+                  onClick={() => handleMonthChange(month)}
+                >
+                  {month}
+                </button>
+              </li>
+            ))}
+          </ul>
         </div>
       </div>
     </nav>
