@@ -3,6 +3,30 @@ import React from "react";
 const February = () => {
   return (
     <div>
+      <div class="day5 february mb-5 mt-3" id="februaryday5">
+        <img
+          src={process.env.PUBLIC_URL + "/assets/day5.png"}
+          alt="Day 5 Documentation"
+          class="rounded-3 documentation-img"
+        />
+
+        <h4 class="fw-bold mt-2">Day 5</h4>
+        <h6 class="sub-header">February 05, 2024</h6>
+        <p class="entry">
+          This day of my internship was a busy and productive one. We started
+          the morning by participating in the flag ceremony with the other
+          employees and interns. Then, we continued with the digital literacy
+          training, where we learned how to use mail merge in MS Word. It is a
+          useful skill to create personalized letters and documents for
+          different recipients. We also got to meet some new interns. In the
+          afternoon, we took the ECDL/ICDL word processing pre-test sample to
+          assess our knowledge and skills. Finally, we had an orientation
+          session with Engr. Antonio B. Bonganay, discussed about the mission
+          and vision of DICT, and goals of the department, as well as the
+          different programs that they are implementing.
+        </p>
+      </div>
+
       <div class="day4 february mb-5 mt-3" id="februaryday4">
         <img
           src={process.env.PUBLIC_URL + "/assets/day4.png"}

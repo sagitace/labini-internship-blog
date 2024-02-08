@@ -8,7 +8,7 @@ const Summary = ({
 }) => {
   const monthData = [
     { name: "January", startDay: 1, endDay: 2 },
-    { name: "February", startDay: 3, endDay: 4 },
+    { name: "February", startDay: 3, endDay: 8 },
   ];
 
   const getCurrentMonthIndex = () => {
@@ -35,12 +35,12 @@ const Summary = ({
 
   const generateDayLinks = (startDay, endDay) => {
     const dayLinks = [];
-    for (let i = startDay; i <= endDay; i++) {
+    for (let i = endDay; i >= startDay; i--) {
       dayLinks.push(
         <a
           key={`day${i}`}
           href={`#${selectedMonth.toLowerCase()}day${i}`}
-          className={`day${i} ${selectedMonth.toLowerCase()} fs-6`}
+          className={`day${i} ${selectedMonth.toLowerCase()} fs-7 mt-1`}
           onClick={() => setSelectedDay(`day${i}`)}
         >
           Day {i} <br />
@@ -61,12 +61,12 @@ const Summary = ({
   };
 
   return (
-    <div className="summary p-4 d-none d-md-block">
+    <div className="summary px-4 pt-3 d-none d-md-block">
       <div className="fw-bold sub-header mb-1 summary-navigation">
         Navigation
       </div>
       <div className="entrieslabel">{renderDayLinks()}</div>
-      <div className="row my-4">
+      <div className="row mt-2">
         <div className="col-6">
           <button
             onClick={handlePrevClick}

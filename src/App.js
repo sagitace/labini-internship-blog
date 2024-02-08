@@ -16,7 +16,7 @@ export default function App() {
         setSelectedMonth={setSelectedMonth}
       />
 
-      <div className="container body-content mt-5">
+      <div className="container body-content mt-2">
         <div className="row">
           <div className="col-md-3">
             <AboutMe />
