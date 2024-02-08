@@ -13,14 +13,20 @@ const February = () => {
         <h4 class="fw-bold mt-2">Day 4</h4>
         <h6 class="sub-header">February 02, 2024</h6>
         <p class="entry">
-          Second day of our on-the-job training program, and we continued to
-          learn about digital literacy skills. We had more practice sessions on
-          how to use Microsoft Word, Excel, and PowerPoint effectively. We
-          learned how to format documents, create charts and graphs, and design
-          presentations. These are essential skills for any modern workplace,
-          and I'm glad we have the opportunity to improve them. I think this
-          training will help us become more productive and efficient in our
-          future tasks.
+          On Day 4 of the Digital Literacy Training, we had several activities
+          that enhanced our knowledge and skills on cyber security and data
+          transmission. First, we attended a cyber attack awareness presentation
+          and discussion led by Engr. Kim Abarientos, who shared with us some
+          tips and best practices on how to protect ourselves and our data
+          online. Next, we learned about the PNPKI - Philippine National Public
+          Key Infrastructure, which is a system that enables the safe and secure
+          exchange of data using digital certificates and signatures. We also
+          watched a PKI promotion presentation that explained the benefits and
+          features of this system. After that, we polished our poster design
+          using Canva. We applied some feedback and suggestions that we received
+          from our peers on Day 3. Finally, we continued our Powerpoint activity
+          from the previous day, where we practiced creating effective and
+          engaging slides using different layouts and slide master.
         </p>
       </div>
 
@@ -31,18 +37,17 @@ const February = () => {
           class="rounded-3 documentation-img"
         />
         <h4 class="fw-bold mt-2">Day 3</h4>
-        <h6 class="sub-header">January 01, 2024</h6>
+        <h6 class="sub-header">February 01, 2024</h6>
         <p class="entry">
-          First day of our on-the-job training (OJT) at the Department of
-          Information and Communications Technology (DICT). We participated in a
-          Digital Literacy Training session, where we had to complete some
-          exercises on MS Word and MS Excel. It was a good way to refresh our
-          skills and learn some new tips and tricks. In the afternoon, we had an
-          orientation session about DICT and its various projects. We learned
-          about the vision, mission, and goals of the department, as well as the
-          different programs and initiatives that they are implementing. It was
-          very informative and interesting to see how DICT is working to improve
-          the ICT sector in the Philippines.
+          Another digital literacy training session today. We learned how to use
+          Excel for various tasks, such as creating charts, tables, and
+          formulas. Engr. Antonio P. Bonganay guided us through some exercises
+          to practice our skills. Next, we used Canva, an online tool for
+          graphic design, to make posters for our projects. We already had some
+          experience with Canva, so this was not too difficult. Finally, we were
+          introduced to Java, a programming language that can be used for web
+          development, mobile applications, and more. We took a practice test to
+          check our understanding of the basic concepts.
         </p>
       </div>
     </div>

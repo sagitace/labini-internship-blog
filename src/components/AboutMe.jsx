@@ -16,22 +16,38 @@ const AboutMe = () => {
         </p>
         <div className="row">
           <div className="col-3">
-            <a href="https://www.facebook.com/aaron.labini.3">
+            <a
+              href="https://www.facebook.com/aaronSagittaire/"
+              target="_blank"
+              rel="noreferrer"
+            >
               <span className="bi bi-facebook fs-4"></span>
             </a>
           </div>
           <div className="col-3">
-            <a href="https://www.linkedin.com/in/aaron-labini-0b3b3b1b3/">
+            <a
+              href="https://www.linkedin.com/in/aaron-labini-101164241/"
+              target="_blank"
+              rel="noreferrer"
+            >
               <span className="bi bi-linkedin fs-4"></span>
             </a>
           </div>
           <div className="col-3">
-            <a href="#none">
+            <a
+              href="https://github.com/sagitace"
+              target="_blank"
+              rel="noreferrer"
+            >
               <span className="bi bi-github fs-4"></span>
             </a>
           </div>
           <div className="col-3">
-            <a href="#none">
+            <a
+              href="https://www.instagram.com/sagitace/"
+              target="_blank"
+              rel="noreferrer"
+            >
               <span className="bi bi-instagram fs-4"></span>
             </a>
           </div>
