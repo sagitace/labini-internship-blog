@@ -6,7 +6,7 @@ import Summary from "./components/Summary";
 import February from "./components/February";
 
 export default function App() {
-  const [selectedMonth, setSelectedMonth] = useState("January");
+  const [selectedMonth, setSelectedMonth] = useState("February");
   const [selectedDay, setSelectedDay] = useState("day1");
 
   return (

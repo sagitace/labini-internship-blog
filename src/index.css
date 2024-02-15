@@ -6,6 +6,10 @@
   color: #dde6ed;
 }
 
+.navbar-brand:hover {
+  color: #dde6ed;
+}
+
 body {
   background: #27374d;
   /*font-family: Cambria, Georgia, serif;*/
@@ -105,6 +109,9 @@ a {
   color: #9db2bf;
   cursor: not-allowed;
   border: none;
+}
+.lastPost {
+  color: #9db2bf;
 }
 @media screen and (min-width: 768px) {
   .about {

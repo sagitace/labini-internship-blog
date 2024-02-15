@@ -8,7 +8,7 @@ const Summary = ({
 }) => {
   const monthData = [
     { name: "January", startDay: 1, endDay: 2 },
-    { name: "February", startDay: 3, endDay: 8 },
+    { name: "February", startDay: 3, endDay: 7 },
   ];
 
   const getCurrentMonthIndex = () => {
@@ -63,7 +63,7 @@ const Summary = ({
   return (
     <div className="summary px-4 pt-3 d-none d-md-block">
       <div className="fw-bold sub-header mb-1 summary-navigation">
-        Navigation
+        Click a Day to navigate
       </div>
       <div className="entrieslabel">{renderDayLinks()}</div>
       <div className="row mt-2">
@@ -71,7 +71,7 @@ const Summary = ({
           <button
             onClick={handlePrevClick}
             className={`btn btn-prev ${
-              getCurrentMonthIndex() === 0 ? "disabled btn-disabled" : ""
+              getCurrentMonthIndex() === 0 ? "disabled btn-disabled" : "fw-bold"
             }`}
             disabled={getCurrentMonthIndex() === 0}
           >
@@ -84,7 +84,7 @@ const Summary = ({
             className={`btn btn-next ${
               getCurrentMonthIndex() === monthData.length - 1
                 ? "disabled btn-disabled"
-                : ""
+                : "fw-bold"
             }`}
             disabled={getCurrentMonthIndex() === monthData.length - 1}
           >

@@ -3,6 +3,68 @@ import React from "react";
 const February = () => {
   return (
     <div>
+      {/* <div class="day8 february mb-5 mt-3" id="februaryday8">
+        <img
+          src={process.env.PUBLIC_URL + "/assets/day8.png"}
+          alt="Day 8 Documentation"
+          class="rounded-3 documentation-img"
+        />
+
+        <h4 class="fw-bold mt-2">Day 8</h4>
+        <h6 class="sub-header">February 08, 2024</h6>
+        <p class="entry">
+          The End of our Dital Literacy Training. This day was the last day of
+          our digital literacy training. We polished all our exercises in MS
+          Word, MS Excel, and MS PowerPoint. We finally Graduated! We took some
+          pictures together, but we did not receive our certificates yet, as
+          they were not signed by the DICT Director. We were told that they will
+          just give it to us after it is signed. I am grateful for this
+          opportunity to learn digital literacy skills, although I already have
+          knowledge about it, this helps me improved my skills.
+        </p>
+      </div> */}
+
+      <div class="day7 february mb-5 mt-3" id="februaryday7">
+        <img
+          src={process.env.PUBLIC_URL + "/assets/day7.png"}
+          alt="Day 7 Documentation"
+          class="rounded-3 documentation-img"
+        />
+
+        <h4 class="fw-bold mt-2">Day 7</h4>
+        <h6 class="sub-header">February 07, 2024</h6>
+        <p class="entry">
+          The End of our Dital Literacy Training. This day was the last day of
+          our digital literacy training. We polished all our exercises in MS
+          Word, MS Excel, and MS PowerPoint. We finally Graduated! We took some
+          pictures together, but we did not receive our certificates yet, as
+          they were not signed by the DICT Director. We were told that they will
+          just give it to us after it is signed. I am grateful for this
+          opportunity to learn digital literacy skills, although I already have
+          knowledge about it, this helps me improved my skills.
+        </p>
+      </div>
+      <div class="day6 february mb-5 mt-3" id="februaryday6">
+        <img
+          src={process.env.PUBLIC_URL + "/assets/day6.png"}
+          alt="Day 6 Documentation"
+          class="rounded-3 documentation-img"
+        />
+
+        <h4 class="fw-bold mt-2">Day 6</h4>
+        <h6 class="sub-header">February 06, 2024</h6>
+        <p class="entry">
+          We attended another digital literacy training seasion where we learned
+          how to use pivot tables in MS Excel. This is a powerful tool that can
+          help us analyze and summarize data in a simple way. Engr. Antonio B.
+          Bonganay explained the basics of pivot tables, such as how to create
+          them, filter, and sort data. He also showed us some examples for us to
+          understand it well. He gave us exercises 12 and 13, this involved
+          creating pivot tables. We learned how to apply different dunctions,
+          such as sum, average, etc., to the data fields.
+        </p>
+      </div>
+
       <div class="day5 february mb-5 mt-3" id="februaryday5">
         <img
           src={process.env.PUBLIC_URL + "/assets/day5.png"}
