@@ -4,7 +4,7 @@ const AboutMe = () => {
   return (
     <div className="about">
       <div className="d-none d-md-block pt-4 px-4">
-        <img src={process.env.PUBLIC_URL + "/assets/me.jpg"} alt="Me" />
+        <img src={process.env.PUBLIC_URL + "/assets/me.png"} alt="Me" />
         <p className="mt-4 info">
           I'm <strong>Aaron Barlas Labini</strong>, a graduating student taking
           up BS Information Technology at Bicol University. Currently doing my
@@ -64,7 +64,7 @@ const AboutMe = () => {
         <div className="row p-4 mb-5">
           <div className="col-4">
             {" "}
-            <img src={process.env.PUBLIC_URL + "/assets/me.jpg"} alt="Me" />
+            <img src={process.env.PUBLIC_URL + "/assets/me.png"} alt="Me" />
           </div>
           <div className="col-8">
             <div className="row">

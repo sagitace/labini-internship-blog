@@ -3,7 +3,7 @@ import React from "react";
 const February = () => {
   return (
     <div>
-      {/* <div class="day8 february mb-5 mt-3" id="februaryday8">
+      <div class="day8 february mb-5 mt-3" id="februaryday8">
         <img
           src={process.env.PUBLIC_URL + "/assets/day8.png"}
           alt="Day 8 Documentation"
@@ -13,16 +13,24 @@ const February = () => {
         <h4 class="fw-bold mt-2">Day 8</h4>
         <h6 class="sub-header">February 08, 2024</h6>
         <p class="entry">
-          The End of our Dital Literacy Training. This day was the last day of
-          our digital literacy training. We polished all our exercises in MS
-          Word, MS Excel, and MS PowerPoint. We finally Graduated! We took some
-          pictures together, but we did not receive our certificates yet, as
-          they were not signed by the DICT Director. We were told that they will
-          just give it to us after it is signed. I am grateful for this
-          opportunity to learn digital literacy skills, although I already have
-          knowledge about it, this helps me improved my skills.
+          Yesterday marked the completion of our digital literacy training. This
+          day, Engr. Bonganay showed us a pre-recorded workshop video that
+          expored various Software Development Life Cycles (SDLCs). The workshop
+          highlighted the different examples of SDLC like Waterfall Model,
+          Agile, Incremental Modal, and more. The video explains how the SDLCs
+          guide developers through the stages of requirement analysis, planning,
+          design, development, testing, and deployment to ensure high-quality
+          software creation. The video also elaborated on the key aspects of
+          software quality, emphasizing the importance of Correctness,
+          Reliability, Usability, and Maintainability. These aspects are
+          critical for ensuring that software not only meets user expectations
+          but also maintains performance across different platforms.
+          Furthermore, Engr. Bonganay has enrolled us in a NetAcad course on the
+          C++ programming language. This course is designed to introduce the
+          syntax, basics to advance c++. Based on the NetAcad website, we have
+          to finish this course before March 31, 2024.
         </p>
-      </div> */}
+      </div>
 
       <div class="day7 february mb-5 mt-3" id="februaryday7">
         <img
