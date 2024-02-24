@@ -1,13 +1,13 @@
 {
   "files": {
     "main.css": "/labini-internship-blog/static/css/main.63da3b88.css",
-    "main.js": "/labini-internship-blog/static/js/main.bc72dae2.js",
+    "main.js": "/labini-internship-blog/static/js/main.44862905.js",
     "index.html": "/labini-internship-blog/index.html",
     "main.63da3b88.css.map": "/labini-internship-blog/static/css/main.63da3b88.css.map",
-    "main.bc72dae2.js.map": "/labini-internship-blog/static/js/main.bc72dae2.js.map"
+    "main.44862905.js.map": "/labini-internship-blog/static/js/main.44862905.js.map"
   },
   "entrypoints": [
     "static/css/main.63da3b88.css",
-    "static/js/main.bc72dae2.js"
+    "static/js/main.44862905.js"
   ]
 }
