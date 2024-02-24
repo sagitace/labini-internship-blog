@@ -8,7 +8,7 @@ const Summary = ({
 }) => {
   const monthData = [
     { name: "January", startDay: 1, endDay: 2 },
-    { name: "February", startDay: 3, endDay: 8 },
+    { name: "February", startDay: 3, endDay: 11 },
   ];
 
   const getCurrentMonthIndex = () => {

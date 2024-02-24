@@ -3,6 +3,70 @@ import React from "react";
 const February = () => {
   return (
     <div>
+      <div class="day11 february mb-5 mt-3" id="februaryday11">
+        <img
+          src={process.env.PUBLIC_URL + "/assets/day11.png"}
+          alt="Day 11 Documentation"
+          class="rounded-3 documentation-img"
+        />
+
+        <h4 class="fw-bold mt-2">Day 11</h4>
+        <h6 class="sub-header">February 14, 2024</h6>
+        <p class="entry">
+          Our morning started with checkng the programming exercises from
+          yesterday. Engr. Bonganay gave us another set of programming
+          exercises. Most of our day in the office was spent working on these
+          challenges, trying to figure out the correct outputs. Surprisingly, we
+          got dismissed early at 3:00 PM. We were told that DICT had a memo
+          saying that working hours were only until 3:00 PM due to Valentine's
+          Day. Adding to the excitement, my team planned to go to Bicol
+          University Main to watch DWTA perform.
+        </p>
+      </div>
+
+      <div class="day10 february mb-5 mt-3" id="februaryday10">
+        <img
+          src={process.env.PUBLIC_URL + "/assets/day10.png"}
+          alt="Day 10 Documentation"
+          class="rounded-3 documentation-img"
+        />
+
+        <h4 class="fw-bold mt-2">Day 10</h4>
+        <h6 class="sub-header">February 13, 2024</h6>
+        <p class="entry">
+          Today, Engr. Bonganay checked the progamming exercises he assigned to
+          us yesterday. However, he didn't show us our papers, making it unclear
+          if our answers were right. After the paper check, I went on to take
+          another quiz for my C++ course on NetAcad, and I'm happy to say I
+          passed it. Later in the afternoon, Engr. Bonganay handed us additional
+          programming exercises. These tasks are meant to get us ready for the
+          diagnostic exam scheduled for March. Its a way to help us practice and
+          be well-prepared for the upcoming test.
+        </p>
+      </div>
+
+      <div class="day9 february mb-5 mt-3" id="februaryday9">
+        <img
+          src={process.env.PUBLIC_URL + "/assets/day9.png"}
+          alt="Day 9 Documentation"
+          class="rounded-3 documentation-img"
+        />
+
+        <h4 class="fw-bold mt-2">Day 9</h4>
+        <h6 class="sub-header">February 12, 2024</h6>
+        <p class="entry">
+          It's Monday, and we started with a flag-raising ceremony. It was also
+          the first day for the new interns from Bicol University Polangui. We
+          then held another orientation for the new interns, led by Engr.
+          Bonganay. I also took my first test in the C++ course on NetAcad and
+          am happy to report that I passed. In the afternoon, Engr. Bonganay
+          gave us three programming problems. We had to write down the
+          pseudocode and decipher the program's results. The problems were not
+          very difficult, but the loop part was certainly confusing. We
+          submitted our work to Engr. Bonganay before leaving.
+        </p>
+      </div>
+
       <div class="day8 february mb-5 mt-3" id="februaryday8">
         <img
           src={process.env.PUBLIC_URL + "/assets/day8.png"}
