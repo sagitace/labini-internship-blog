@@ -61,6 +61,7 @@ body {
 .about img {
   display: flex;
   justify-content: center;
+  border-radius: 10%;
   align-items: center;
   margin: 0 auto;
   width: 100%;
@@ -111,6 +112,9 @@ a {
 }
 .lastPost {
   color: #9db2bf;
+}
+.graphic-design-title {
+  font-weight: bold;
 }
 @media screen and (min-width: 768px) {
   .about {

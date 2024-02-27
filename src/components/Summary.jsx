@@ -8,7 +8,7 @@ const Summary = ({
 }) => {
   const monthData = [
     { name: "January", startDay: 1, endDay: 2 },
-    { name: "February", startDay: 3, endDay: 11 },
+    { name: "February", startDay: 3, endDay: 18 },
   ];
 
   const getCurrentMonthIndex = () => {
@@ -35,18 +35,30 @@ const Summary = ({
 
   const generateDayLinks = (startDay, endDay) => {
     const dayLinks = [];
-    for (let i = endDay; i >= startDay; i--) {
-      dayLinks.push(
-        <a
-          key={`day${i}`}
-          href={`#${selectedMonth.toLowerCase()}day${i}`}
-          className={`day${i} ${selectedMonth.toLowerCase()} fs-7 mt-1`}
-          onClick={() => setSelectedDay(`day${i}`)}
-        >
-          Day {i} <br />
-        </a>
-      );
-    }
+    for (let i = endDay; i >= startDay; i--)
+      if (i === 18 && startDay <= 16) {
+        dayLinks.push(
+          <a
+            key={`day16-18`}
+            href={`#${selectedMonth.toLowerCase()}day16-18`}
+            className={`day16-18 ${selectedMonth.toLowerCase()} fs-7 mt-1`}
+            onClick={() => setSelectedDay(`day16-18`)}
+          >
+            Day 16 - 18 <br />
+          </a>
+        );
+      } else if ((i <= 15 && startDay >= 1) || (i <= 60 && startDay >= 19)) {
+        dayLinks.push(
+          <a
+            key={`day${i}`}
+            href={`#${selectedMonth.toLowerCase()}day${i}`}
+            className={`day${i} ${selectedMonth.toLowerCase()} fs-7 mt-1`}
+            onClick={() => setSelectedDay(`day${i}`)}
+          >
+            Day {i} <br />
+          </a>
+        );
+      }
     return dayLinks;
   };
 

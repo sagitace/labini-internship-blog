@@ -3,6 +3,170 @@ import React from "react";
 const February = () => {
   return (
     <div>
+      <div class="day16-18 february mb-5 mt-3" id="februaryday16-18">
+        <img
+          src={process.env.PUBLIC_URL + "/assets/day16-18.png"}
+          alt="Day 16 to 18 Documentation"
+          class="rounded-3 documentation-img"
+        />
+
+        <h4 class="fw-bold mt-2">Day 16 - 18</h4>
+        <h6 class="sub-header">February 21 - 23, 2024</h6>
+        <p class="entry">
+          <div>
+            Today until Friday, our team transitioned to a Work From Home (WFH)
+            setup. We were tasked to create graphic design each day to share
+            important ICT Tips. In approaching this task, my focus has been on
+            simplicity and relevance to make the content easily understandable
+            and applicable.
+          </div>{" "}
+          <br />
+          <div className="graphic-design-title">
+            Graphic Design 1 - Developing Expertise in Online Account
+            Protection.
+          </div>
+          <div>
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Given the continuous evolution of
+            technology, I decided to create ICT tips about this topic. In
+            today's digital age, where technology advances rapidly, safeguarding
+            our online accounts has become more important. In my graphic design,
+            I've compiled a list of 7 effective tips. These tips are guidance on
+            how to enhance the security of the users online accounts. By
+            following these tips, users can take proactive measures to fortify
+            their digital presence and minimize the risks associated with online
+            activities.
+          </div>
+          <br />
+          <div className="graphic-design-title">
+            Graphic Design 2 - Footprints in Cyberspace
+          </div>
+          <div>
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; During my second day of working from
+            home, I made a graphic design about handling digital footprint well.
+            Knowing and handling our digital footprint is really important
+            because it affects how we appear online and can make a big
+            difference in personal and job chances. I also added 4 easy tips in
+            my graphic design: be mindful on content sharing, educate yourself
+            about privacy, stay informed, and be kind and respectful. I made
+            this graphic design to show why managing digital footprint is
+            important and to give simple advice on using the internet wisely.
+          </div>
+          <br />
+          <div className="graphic-design-title">
+            Graphic Design 3 - Cloud Utilization Advantages
+          </div>
+          <div>
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; On my third day of working from home,
+            I focused on creating a graphic design that highlights the
+            advantages of using cloud services: scalability, data security,
+            disaster recovery, and global accessibility. Each of these benefits
+            contributes to making cloud technology a powerful and versatile tool
+            in managing information and saving data effectively.
+          </div>
+        </p>
+      </div>
+      <div class="day15 february mb-5 mt-3" id="februaryday15">
+        <img
+          src={process.env.PUBLIC_URL + "/assets/day15.png"}
+          alt="Day 15 Documentation"
+          class="rounded-3 documentation-img"
+        />
+
+        <h4 class="fw-bold mt-2">Day 15</h4>
+        <h6 class="sub-header">February 20, 2024</h6>
+        <p class="entry">
+          We didn't do much today since Engr. Bonganay is not around. As usual,
+          I focused on my C++ course. I just read module 3. Later on, some DICT
+          staff informed us that DICT region V will be hosting the Flag Raising
+          Ceremony on March 11. Interestingly, they mentioned that we would be
+          included in the video, and they initially planned to start recording
+          in the afternoon. However, they weren't able to record in the
+          afternoon, I don't know the reason why. Looking ahead, my team was
+          informed that starting tomorrow until Friday, we'll be transitioning
+          to a Work from Home setup. The reason behind this change is that some
+          interns and work immersion students will be undergoing Digital
+          Literacy Training on-site. We already completed this training during
+          our first and second weeks. They told us that we will be making a
+          Graphic design about ICT tips during our WFH.
+        </p>
+      </div>
+
+      <div class="day14 february mb-5 mt-3" id="februaryday14">
+        <img
+          src={process.env.PUBLIC_URL + "/assets/day14.png"}
+          alt="Day 14 Documentation"
+          class="rounded-3 documentation-img"
+        />
+
+        <h4 class="fw-bold mt-2">Day 14</h4>
+        <h6 class="sub-header">February 19, 2024</h6>
+        <p class="entry">
+          It's Monday, and we started the day with an online flag-raising
+          ceremonday, which happens every monday of the week. As usual, the
+          ceremony is done together with other DICT regions nationwide. Today is
+          also the first day for the work immersion students from Legazpi City
+          Science High School. Sir Aljhune Morga, a Program Developer Officer
+          II, took the time to discuss the basics of ICT (Information and
+          Communication Technologt). This was particularly for the immersion
+          students, so I focused on taking the module 2 quiz. Each module has
+          two quizzes, and I already finished the other one yesterday. Today's
+          quiz had 20 items, and I'm happy that I passed it on my first attemp.
+          The immersion students also got to learn about productivity tools like
+          MS Word, MS Excel, and MS PowerPoint. Later in the day, Engr. Bonganay
+          gave us three programming problems to solve. He noticed that we
+          weren't very busy, so he wanted to keep us engaged. The problems are
+          not that hard, so I feel confident about my answers.
+        </p>
+      </div>
+
+      <div class="day13 february mb-5 mt-3" id="februaryday13">
+        <img
+          src={process.env.PUBLIC_URL + "/assets/day13.png"}
+          alt="Day 13 Documentation"
+          class="rounded-3 documentation-img"
+        />
+
+        <h4 class="fw-bold mt-2">Day 13</h4>
+        <h6 class="sub-header">February 16, 2024</h6>
+        <p class="entry">
+          Our day was a bit different today because Engr. Bonganay had an
+          important matter to attend to, so we didn't have our usual activities.
+          He let us know yesterday that he wouldn't be arount today, and he
+          mentioned that someone else would come to teach us something. However,
+          as the day went on, no one showed up. In the meantime, I took the
+          opportunity to complete Module 2 of my C++ course on NetAcad. This
+          module is a part of the course Engr. Bonganay assigned to us last
+          week. It covered topics in C++ programming like loops, bitwise
+          operators, and modulo.
+        </p>
+      </div>
+
+      <div class="day12 february mb-5 mt-3" id="februaryday12">
+        <img
+          src={process.env.PUBLIC_URL + "/assets/day12.png"}
+          alt="Day 12 Documentation"
+          class="rounded-3 documentation-img"
+        />
+
+        <h4 class="fw-bold mt-2">Day 12</h4>
+        <h6 class="sub-header">February 15, 2024</h6>
+        <p class="entry">
+          Our day began by continuing the programming exercises from yesterday,
+          and we finish it this day. Additionally, Engr. Bonganay introduced a
+          new topic - freelancing. He played a pre-recorded workshop from 2020
+          and 2021, emphasizing its importance as we might explore freelance
+          jobs after graduating or gaining experience in the tech industry. The
+          video covered basics and client handling in freelancing.
+          <br />
+          Another pre-recorded session focused on e-commerce, website
+          development, and hosting using wordpress. While I already have
+          experience in building en e-commerce website and hosting (using shared
+          hosting and VPS), I personally don't prefer using WordPress for
+          complex websites. I've come across websires built with WordPress, and
+          I don't find them appealing. That sums up our activities for the day.
+        </p>
+      </div>
+
       <div class="day11 february mb-5 mt-3" id="februaryday11">
         <img
           src={process.env.PUBLIC_URL + "/assets/day11.png"}
@@ -13,7 +177,7 @@ const February = () => {
         <h4 class="fw-bold mt-2">Day 11</h4>
         <h6 class="sub-header">February 14, 2024</h6>
         <p class="entry">
-          Our morning started with checkng the programming exercises from
+          Our morning started with checking the programming exercises from
           yesterday. Engr. Bonganay gave us another set of programming
           exercises. Most of our day in the office was spent working on these
           challenges, trying to figure out the correct outputs. Surprisingly, we
