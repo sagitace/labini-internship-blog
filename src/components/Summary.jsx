@@ -8,7 +8,7 @@ const Summary = ({
 }) => {
   const monthData = [
     { name: "January", startDay: 1, endDay: 2 },
-    { name: "February", startDay: 3, endDay: 18 },
+    { name: "February", startDay: 3, endDay: 19 },
   ];
 
   const getCurrentMonthIndex = () => {
@@ -47,7 +47,7 @@ const Summary = ({
             Day 16 - 18 <br />
           </a>
         );
-      } else if ((i <= 15 && startDay >= 1) || (i <= 60 && startDay >= 19)) {
+      } else if ((i <= 15 && startDay >= 1) || (i <= 60 && i >= 19)) {
         dayLinks.push(
           <a
             key={`day${i}`}

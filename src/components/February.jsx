@@ -3,6 +3,34 @@ import React from "react";
 const February = () => {
   return (
     <div>
+      <div class="day19 february mb-5 mt-3" id="februaryday19">
+        <img
+          src={process.env.PUBLIC_URL + "/assets/day19.png"}
+          alt="Day 19 Documentation"
+          class="rounded-3 documentation-img"
+        />
+
+        <h4 class="fw-bold mt-2">Day 19</h4>
+        <h6 class="sub-header">February 26, 2024</h6>
+        <p class="entry">
+          Today is different. We could not attend the flag ceremony with the
+          other employees this monday because they asked us to move to another
+          room. The reason was that there was a training session happening in
+          the room where we usually work. Our OJT coordinator, Dr. Rommel Evan
+          Paje, informed us that he would come to see us in the afternoon. Engr.
+          Bonganay, told us that we could leave early because the room we moved
+          to was too small for all of us. However, he also gave us an assignment
+          to read and do the exercises from a book about Java Programming
+          language by Y. Daniel Liang. He specifically told us to focus on
+          chapter 3 and 5 activities, which involved making flowcharts and
+          coding. Some of the interns from BU Polangui and CATSU decided to go
+          home early, but my team stayed because we will meet our OJT
+          coordinator. After some of the interns left, Engr. Bonganay gave us
+          more programming problems to solve. He wanted us to figure out the
+          output of the problems, just like the previous activities we did.
+        </p>
+      </div>
+
       <div class="day16-18 february mb-5 mt-3" id="februaryday16-18">
         <img
           src={process.env.PUBLIC_URL + "/assets/day16-18.png"}
