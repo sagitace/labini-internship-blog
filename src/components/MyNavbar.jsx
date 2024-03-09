@@ -16,7 +16,7 @@ const MyNavbar = ({ selectedMonth, setSelectedMonth }) => {
           <div className="d-flex justify-content-center align-items-center m-2">
             <div className="lastPost">
               <span className="fw-normal">Last Post:</span>{" "}
-              <span className="fw-bold">Day 18 - February 23, 2024</span>
+              <span className="fw-bold">Day 22 - February 29, 2024</span>
             </div>
           </div>
 

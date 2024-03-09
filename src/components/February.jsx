@@ -3,6 +3,28 @@ import React from "react";
 const February = () => {
   return (
     <div>
+      <div class="day20-22 february mb-5 mt-3" id="februaryday20-22">
+        <img
+          src={process.env.PUBLIC_URL + "/assets/day20-22.png"}
+          alt="Day 20 to 22 Documentation"
+          class="rounded-3 documentation-img"
+        />
+
+        <h4 class="fw-bold mt-2">Day 20 - 22</h4>
+        <h6 class="sub-header">February 27 - 29, 2024</h6>
+        <p class="entry">
+          This entry covers the three days that we spent working on Java
+          programming language. We did not spend much time at the DICT office
+          because there were frequent brownouts in Legazpi City. We only go to
+          DICT every morning and then work from home for the rest of the time.
+          Engr. Bonganay told us to continue working on the programming problems
+          he gave us last day. The problems ranged from simple to complex and
+          covered various topics such as variables, operators, array, and loops.
+          The problems were not easy but we managed to solve most of them. This
+          also served as a preparation for the diagnostic exam that we will take
+          this March 20, 2024.
+        </p>
+      </div>
       <div class="day19 february mb-5 mt-3" id="februaryday19">
         <img
           src={process.env.PUBLIC_URL + "/assets/day19.png"}
