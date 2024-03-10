@@ -1,7 +1,7 @@
 import React from "react";
 
 const MyNavbar = ({ selectedMonth, setSelectedMonth }) => {
-  const months = ["January", "February"];
+  const months = ["January", "February", "March"];
 
   const handleMonthChange = (month) => {
     setSelectedMonth(month);
@@ -16,7 +16,7 @@ const MyNavbar = ({ selectedMonth, setSelectedMonth }) => {
           <div className="d-flex justify-content-center align-items-center m-2">
             <div className="lastPost">
               <span className="fw-normal">Last Post:</span>{" "}
-              <span className="fw-bold">Day 22 - February 29, 2024</span>
+              <span className="fw-bold">Day 28 - March 08, 2024</span>
             </div>
           </div>
 
@@ -31,7 +31,7 @@ const MyNavbar = ({ selectedMonth, setSelectedMonth }) => {
             </button>
             <ul className="dropdown-menu">
               {months.map((month) => (
-                <li>
+                <li key={month}>
                   <button
                     className="dropdown-item"
                     onClick={() => handleMonthChange(month)}

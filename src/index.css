@@ -17,7 +17,9 @@ body {
 
 .myDropdown {
   background: #27374d;
+  width: 100px;
   color: #dde6ed;
+  margin: 0 auto;
 }
 
 .myDropdown:hover {
@@ -115,6 +117,11 @@ a {
 }
 .graphic-design-title {
   font-weight: bold;
+}
+
+.dayEntry:hover {
+  color: #9db2bf;
+  cursor: pointer;
 }
 @media screen and (min-width: 768px) {
   .about {

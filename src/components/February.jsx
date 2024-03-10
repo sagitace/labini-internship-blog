@@ -22,7 +22,11 @@ const February = () => {
           covered various topics such as variables, operators, array, and loops.
           The problems were not easy but we managed to solve most of them. This
           also served as a preparation for the diagnostic exam that we will take
-          this March 20, 2024.
+          this March 20, 2024. We also participated in the startup awareness
+          orientation, which was organized by DICT Region V. The goal of this
+          orientation was to introduce us to the Philippine Startup Ecosystem
+          and how we can be part of it. After the orientation, we resumed our
+          Java programming tasks and tried to finish as much as we could.
         </p>
       </div>
       <div class="day19 february mb-5 mt-3" id="februaryday19">

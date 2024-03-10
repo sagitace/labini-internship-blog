@@ -4,9 +4,10 @@ import AboutMe from "./components/AboutMe";
 import January from "./components/January";
 import Summary from "./components/Summary";
 import February from "./components/February";
+import March from "./components/March";
 
 export default function App() {
-  const [selectedMonth, setSelectedMonth] = useState("February");
+  const [selectedMonth, setSelectedMonth] = useState("March");
   const [selectedDay, setSelectedDay] = useState("day1");
 
   return (
@@ -35,6 +36,11 @@ export default function App() {
               {selectedMonth === "February" && (
                 <div className="february" id="februaryEntry">
                   <February />
+                </div>
+              )}
+              {selectedMonth === "March" && (
+                <div className="march" id="marchEntry">
+                  <March />
                 </div>
               )}
             </div>
